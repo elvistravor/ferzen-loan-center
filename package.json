@@ -1,0 +1,16 @@
+{
+  "name": "ferzen-loan-services",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Ferzen Loan Services - Netlify Functions + Supabase PostgreSQL migration",
+  "scripts": {"dev":"netlify dev","build":"echo Static site and Netlify Functions ready"},
+  "engines": {"node": ">=20"},
+  "dependencies": {
+    "@netlify/functions": "^3.0.0",
+    "@supabase/supabase-js": "^2.49.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {"netlify-cli":"^17.37.2"}
+}
